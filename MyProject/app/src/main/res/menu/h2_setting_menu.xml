@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/h2_mnu_AdvanceSearch"
+        app:showAsAction="never"
+        android:title="Advance Search"></item>
+    <item
+        android:id="@+id/h2_mnu_category"
+        app:showAsAction="never"
+        android:title="Select Category"></item>
+    <item
+        android:id="@+id/h2_mnu_edit_profile"
+        app:showAsAction="never"
+        android:title="Edit Profile"></item>
+    <item
+        android:id="@+id/h2_mnu_ProfilePicture"
+        app:showAsAction="never"
+        android:title="Change Profile Picture"></item>
+    <item
+        android:id="@+id/h2_mnu_logout"
+        app:showAsAction="never"
+        android:title="Logout"></item>
+</menu>

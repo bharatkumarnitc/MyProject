@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SqLite.Sq11_AdvanceSearch"
+    android:orientation="vertical">
+
+<EditText
+    android:id="@+id/sq11_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Name"/>
+
+
+
+    <EditText
+        android:id="@+id/sq11_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Search"
+    android:onClick="sq11_btnsearch"/>
+
+    <ListView
+        android:id="@+id/sq11_showlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#134">
+    </ListView>
+
+
+
+</LinearLayout>

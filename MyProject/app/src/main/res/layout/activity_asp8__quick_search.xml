@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ASPApi.ASP8_QuickSearch">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="QUICK SEARCH"
+            android:textColor="#113300"
+            android:textSize="23dp" />
+
+        <EditText
+            android:id="@+id/ASP8_txt_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter Name" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="ASP8_fun_Search"
+            android:text="Search" />
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/ASP8_multilist"
+        android:layout_height="match_parent"></ListView>
+
+
+</LinearLayout>

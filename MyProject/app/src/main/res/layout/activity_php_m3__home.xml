@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="online.nitcalicut.myproject.PHP.PhpM3_Home">
+
+    <Button
+        android:text="Edit Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="php_m3_Reigster"
+        />
+    <Button
+        android:text="changpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="php_m3_chngpass"
+        />
+    <Button
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="php3_mlogout"
+        />
+
+</LinearLayout>

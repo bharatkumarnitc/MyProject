@@ -1,0 +1,10 @@
+A TextSwitcher is a specialised form of ViewSwitcher that contains only children of type TextView. TextSwitcher is used to animate a TextView when the text changes. Two types of animations are required to switch between texts:
+
+In Animation: with which Text come in the Screen
+Out Animation: with which Text goes out from the Screen
+
+In Android, ImageSwitcher is a specialized ViewSwitcher that contain ImageView type children.
+It is an element of transition widget which helps us to add transitions on the images. It is mainly  useful to animate an image on screen. ImageSwitcher switches smoothly between two images and thus provides a way of transitioning from one Image to another through appropriate animations.
+
+In Animation: with which image come in the Screen
+Out Animation: with which image goes out from the Screen

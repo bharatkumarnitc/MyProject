@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Layout.Home2">
+
+   <LinearLayout
+       android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+
+       <LinearLayout
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:orientation="vertical">
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:src="@drawable/technology" />
+
+           <TextView
+               android:background="#0961e6"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:padding="10dp"
+               android:text="Technology"
+               android:textColor="#fff"
+               android:textSize="20dp" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:orientation="vertical">
+           <ImageView
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:src="@drawable/artdesign"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Art  Design"
+               android:background="#ec0a1e"
+               android:textColor="#fff"
+               android:textSize="20dp"
+               android:gravity="center"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:orientation="vertical">
+           <ImageView
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:src="@drawable/math" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#0578ea"
+               android:text="Maths  Science"
+               android:textSize="20dp"
+               android:gravity="center"/>
+       </LinearLayout>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/business"/>
+            <TextView
+                android:background="#09e6e2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Business"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/ss"
+                />
+            <TextView
+                android:background="#c210bc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social Sciences"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/three"/>
+            <TextView
+                android:textSize="20dp"
+                android:text="All"
+                android:background="#09daf1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

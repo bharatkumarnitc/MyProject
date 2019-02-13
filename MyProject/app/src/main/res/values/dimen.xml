@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mytextsize">15sp</dimen>
+    <dimen name="myPhonesize">15sp</dimen>
+    <dimen name="mypadding">10dp</dimen>
+    <dimen name="mymarginTop">10dp</dimen>
+    <dimen name="mymarginBottom">10dp</dimen>
+    <dimen name="mymarginLeft">10dp</dimen>
+    <dimen name="mymarginRight">10dp</dimen>
+    <dimen name="mymargin">10dp</dimen>
+
+
+</resources>

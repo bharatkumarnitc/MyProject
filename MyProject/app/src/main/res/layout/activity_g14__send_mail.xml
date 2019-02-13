@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="online.nitcalicut.myproject.Hardware.G14_SendMail">
+
+
+
+
+    <EditText
+        android:hint="Enter Email To Sent Msg"
+        android:id="@+id/G14_txt_To"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:ems="10" />
+
+    <EditText
+        android:hint="Enter Subject"
+        android:id="@+id/G14_txt_Subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:ems="10">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:hint="Enter Message"
+        android:id="@+id/G14_txt_Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+
+
+    <Button
+        android:id="@+id/btn_SendMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/mymarginTop"
+        android:background="@drawable/btn_background"
+        android:text="Send" />
+
+</LinearLayout>

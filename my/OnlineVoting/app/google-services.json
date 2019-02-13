@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "57812379871",
+    "firebase_url": "https://online-voting-496d6.firebaseio.com",
+    "project_id": "online-voting-496d6",
+    "storage_bucket": "online-voting-496d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57812379871:android:aadd39a48287a177",
+        "android_client_info": {
+          "package_name": "onlinevoting.nitcalicut.onlinevoting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57812379871-7mpd8a31ucvksvslssbjc457kpm9cu9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "onlinevoting.nitcalicut.onlinevoting",
+            "certificate_hash": "e91a9b8922ec524134b3906ed8480057e830f65f"
+          }
+        },
+        {
+          "client_id": "57812379871-81b15mtkdc0a0kfgpncv2bfntj0i3ojj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "onlinevoting.nitcalicut.onlinevoting",
+            "certificate_hash": "cd71e00b26fd7b3aa599099217e75d730a4f1112"
+          }
+        },
+        {
+          "client_id": "57812379871-haaj1msrukl8v3ee293hfi7amprfa2vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXCIic6GdOSJNbN49iYx2llCGlNau6z0I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57812379871-haaj1msrukl8v3ee293hfi7amprfa2vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="online.nitcalicut.myproject">
+
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyDsfPsG1R0y7guFE_HkM_Mzm18ljMMsBBo" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Layout.A1_Layout" />
+        <activity android:name=".Layout.A2_Layout" />
+        <activity android:name=".Layout.A3_Layout" />
+        <activity android:name=".Layout.A4_Layout" />
+        <activity android:name=".Layout.Home1" />
+        <activity android:name=".Controls.B7_ToggleButton" />
+        <activity android:name=".Controls.B8_Switch" />
+        <activity android:name=".Controls.B9_NumberPicker" />
+        <activity android:name=".Controls.B10_DigitalClock" />
+        <activity android:name=".Controls.B11_AnalogClock" />
+        <activity android:name=".Controls.B12_DatePicker" />
+        <activity android:name=".Controls.B1_VerticalScroll" />
+        <activity
+            android:name=".Controls.B2_HorizontalScroll"
+            android:label="@string/title_activity_b2__horizontal_scroll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Controls.B3_ShowMessage"
+            android:label="@string/title_activity_b3__show_message"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Controls.B4_Add"
+            android:label="@string/title_activity_b4__add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Controls.B5_RadioButton"
+            android:label="@string/title_activity_b5__radio_button"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Controls.B6_Checkbox"
+            android:label="@string/title_activity_b6__checkbox"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Layout.Home2" />
+        <activity android:name=".Layout.Home3" />
+        <activity android:name=".Controls.B13_TimePicker" />
+        <activity android:name=".Controls.B14_AlertDialog" />
+        <activity android:name=".Controls.B15_RatingBar" />
+        <activity android:name=".Controls.B16_Seekbar" />
+        <activity android:name=".Controls.B17_Search" />
+        <activity android:name=".Controls.B18_Spinner" />
+        <activity android:name=".Controls.B19_ListView" />
+        <activity android:name=".Controls.B20_GridView" />
+        <activity android:name=".Controls.B21_AutoTextComplete" />
+        <activity android:name=".Controls.B22_MultiAuto" />
+        <activity android:name=".Controls.B23_ListView" />
+        <activity android:name=".Controls.B24_Spinner" />
+        <activity
+            android:name=".Controls.B25_ProgressBar"
+            android:label="@string/title_activity_b25__progress_bar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Controls.B26_TextBoxBlink" />
+        <activity android:name=".Controls.B27_ProgressDialog" />
+        <activity android:name=".Controls.B28_ZoomButton" />
+        <activity android:name=".Controls.B29_ZoomControl" />
+        <activity android:name=".Controls.B30_ListViewDialog" />
+        <activity android:name=".Controls.B31_ListViewMulti" />
+        <activity android:name=".Controls.B32_ListViewDialog" />
+        <activity android:name=".Controls.B33_ZoomButton" />
+        <activity android:name=".SqLite.Sq1_InsertSingle" />
+        <activity android:name=".SqLite.Sq2_ReadSingle" />
+        <activity android:name=".SqLite.Sq7_GridView" />
+        <activity android:name=".SqLite.Sq8_MultipleInsert" />
+        <activity android:name=".SqLite.Sq9_ReadMultiple" />
+        <activity android:name=".SqLite.Sq10_Search" />
+        <activity android:name=".SqLite.Sq11_AdvanceSearch" />
+        <activity android:name=".SqLite.Sq12_Register" />
+        <activity android:name=".SqLite.Sq13_Login" />
+        <activity android:name=".SqLite.Sq14_Home" />
+        <activity android:name=".SqLite.Sq15_EditProfile" />
+        <activity android:name=".SqLite.Sq16_ChangePassword" />
+        <activity android:name=".SqLite.Sq17_Logout" />
+        <activity android:name=".SqLite.Sq18_ContactUs" />
+        <activity android:name=".SqLite.Sq19_SpinnerID"></activity>
+
+        <activity android:name=".PHP.Php1_InsertData"></activity>
+        <activity android:name=".PHP.Php2_ListView"></activity>
+        <activity android:name=".PHP.Php3_Spinner"></activity>
+        <activity android:name=".PHP.Php4_AutoCompelete"></activity>
+        <activity android:name=".PHP.Php5_MultiAutoComplete"></activity>
+        <activity android:name=".PHP.Php6_GridView"></activity>
+        <activity android:name=".PHP.Php8_ListViewMulti"></activity>
+        <activity android:name=".PHP.Php9_SpinnerId"></activity>
+        <activity android:name=".PHP.PhpM1_Register"></activity>
+        <activity android:name=".PHP.PhpM2_Login"></activity>
+        <activity android:name=".PHP.PhpM3_Home"></activity>
+        <activity android:name=".PHP.PhpM4_EditProfile"></activity>
+        <activity android:name=".PHP.PhpM5_ChangePassword"></activity>
+        <activity android:name=".PHP.PhpM6_Logout"></activity>
+        <activity android:name=".PHP.PhpM7_Products"></activity>
+        <activity android:name=".PHP.PhpM9_SearchQuick"></activity>
+        <activity android:name=".PHP.PhpM10_SearchAdvance"></activity>
+        <activity android:name=".PHP.PhpM11_AddToCart"></activity>
+        <activity android:name=".PHP.PhpM12_ContactUs"></activity>
+        <activity android:name=".PHP.PhpM13_Album"></activity>
+        <activity android:name=".PHP.PhpM14_Gallery"></activity>
+        <activity android:name=".PHP.PhpM15_SearchAdvance"></activity>
+
+        <activity android:name=".Control2.E30_GridView"></activity>
+        <activity android:name=".Control2.E31_GridViewGallery"></activity>
+        <activity android:name=".Control2.E32_GridViewGalleryText"></activity>
+        <activity android:name=".Control2.E33_GalleryControl"></activity>
+        <activity android:name=".Control2.E34_CustomToast"></activity>
+        <activity android:name=".Control2.E35_OptionMenu"></activity>
+        <activity android:name=".Control2.E36_PopupMenu"></activity>
+        <activity android:name=".Control2.E37_ContextMenu"></activity>
+        <activity android:name=".Control2.E38_SharedPreferences"></activity>
+        <activity android:name=".Control2.E39_InternalStorageFileCreate"></activity>
+        <activity android:name=".Control2.E40_InternalStorageFileCreate"></activity>
+        <activity android:name=".Control2.E41_ExternalStorageFileCreate"></activity>
+        <activity android:name=".Control2.E42_ExternalStorageFileCreate"></activity>
+        <activity android:name=".Control2.E43_ListViewMulti"></activity>
+
+        <activity android:name=".Advance.H1_TabLayout"></activity>
+        <activity android:name=".Advance.H2_NavigationDrawer"></activity>
+        <activity android:name=".Advance.H3_Guesture"></activity>
+        <activity android:name=".Advance.H4_GPSLocation"></activity>
+
+        <activity android:name=".ASPApi.ASP1_InsertData"></activity>
+        <activity android:name=".ASPApi.ASP2_ListView"></activity>
+        <activity android:name=".ASPApi.ASP3_Register"></activity>
+        <activity android:name=".ASPApi.ASP4_LogIn"></activity>
+        <activity android:name=".ASPApi.ASP5_Home"></activity>
+        <activity android:name=".ASPApi.ASP6_EditProfile"></activity>
+        <activity android:name=".ASPApi.ASP7_A_Products"></activity>
+        <activity android:name=".ASPApi.ASP8_QuickSearch"></activity>
+        <activity android:name=".ASPApi.ASP9_AdvanceSearch"></activity>
+        <activity android:name=".ASPApi.ASP10_ContactUs"></activity>
+        <activity android:name=".ASPApi.ASP11_Album"></activity>
+        <activity android:name=".ASPApi.ASP12__Gallery"></activity>
+        <activity android:name=".ASPApi.ASP13_AddToCart"></activity>
+
+
+        <activity android:name=".Control3.F1_WebView"></activity>
+        <activity android:name=".Control3.F2_ImageSwitcher"></activity>
+        <activity android:name=".Control3.F1A_WebView"></activity>
+        <activity android:name=".Control3.F1B_WebView"></activity>
+        <activity android:name=".Control3.F4_ViewStub"></activity>
+        <activity android:name=".Control3.F5_AsyncTask"></activity>
+        <activity android:name=".Control3.F6_PlayVideo"></activity>
+        <activity android:name=".Control3.F7_PlayAudio"></activity>
+
+
+
+        <activity android:name=".Hardware.G1_BatteryLevel"></activity>
+        <activity android:name=".Hardware.G2_BlueTooth"></activity>
+        <activity android:name=".Hardware.G3_Wifi"></activity>
+        <activity android:name=".Hardware.G4_BluetoothPairedDevice"></activity>
+        <activity android:name=".Hardware.G5_MotionDetection"></activity>
+        <activity android:name=".Hardware.G6_GetCallState1"></activity>
+        <activity android:name=".Hardware.G7_PhoneCall"></activity>
+        <activity android:name=".Hardware.G8_TelephonyManager"></activity>
+        <activity android:name=".Hardware.G9_SendSMS"></activity>
+        <activity android:name=".Hardware.G10_ReadSMS"></activity>
+        <activity android:name=".Hardware.G11_ContactDetails"></activity>
+        <activity android:name=".Hardware.G12_CallLogRead"></activity>
+        <activity android:name=".Hardware.G13_CallLogWrite"></activity>
+        <activity android:name=".Hardware.G14_SendMail"></activity>
+        <activity android:name=".Hardware.G15_TextToSpeech"></activity>
+        <activity android:name=".Hardware.G16_Camera"></activity>
+        <activity android:name=".Hardware.G17_CameraSave"></activity>
+
+
+    </application>
+
+</manifest>

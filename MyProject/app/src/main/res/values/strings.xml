@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="title_activity_b2__horizontal_scroll">B2_HorizontalScroll</string>
+    <string name="title_activity_b3__show_message">B3_ShowMessage</string>
+    <string name="title_activity_b4__add">B4_Add</string>
+    <string name="title_activity_b5__radio_button">B5_RadioButton</string>
+    <string name="title_activity_b6__checkbox">B6_Checkbox</string>
+
+    <string-array name="MyCity">
+        <item>Jaipur1</item>
+        <item>Jaipur2</item>
+        <item>Jaipur3</item>
+        <item>Jaipur4</item>
+        <item>Jaipur5</item>
+        <item>Jaipur6</item>
+    </string-array>
+    <string name="title_activity_b25__progress_bar">B25_ProgressBar</string>
+</resources>

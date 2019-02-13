@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/position_name"
+            android:icon="@drawable/add_admin"
+            android:title="Position Lists" />
+
+        <item
+            android:id="@+id/candidate_name"
+            android:icon="@drawable/add_admin"
+            android:title="Add Candidates" />
+        <item
+            android:id="@+id/user_registration"
+            android:icon="@drawable/add_admin"
+            android:title="User Register"/>
+
+        <item
+            android:id="@+id/admin_logout"
+            android:icon="@drawable/log_out"
+            android:title="Log Out"/>
+
+    </group>
+</menu>

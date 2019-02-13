@@ -1,0 +1,325 @@
+
+CREATE TABLE ShriRam_tbl_Album (
+	AlbumId int NOT NULL IDENTITY (1, 1),
+	AlbumName nvarchar(200) NULL,
+	PhotoUrl nvarchar(200) NULL);
+GO
+
+SET IDENTITY_INSERT ShriRam_tbl_Album ON
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (1, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (2, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (3, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (4, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (5, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (6, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (7, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (8, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (9, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (10, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (11, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (12, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (13, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (14, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (15, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (16, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (17, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (18, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (19, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (20, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (21, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (22, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (23, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (24, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (25, N'My Album 1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Album (AlbumId, AlbumName, PhotoUrl)
+	VALUES (26, N'My Album 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+SET IDENTITY_INSERT ShriRam_tbl_Album OFF
+GO
+
+--Table ManishTiwari.ShriRam_tbl_Cart
+
+USE db_ManishTiwari
+GO
+
+--Create table and its columns
+CREATE TABLE ShriRam_tbl_Cart (
+	CartId int NOT NULL IDENTITY (1, 1),
+	RegId int NULL,
+	ProductId int NULL,
+	Price int NULL);
+GO
+
+--Table ManishTiwari.ShriRam_tbl_Category
+
+USE db_ManishTiwari
+GO
+
+--Create table and its columns
+CREATE TABLE ShriRam_tbl_Category (
+	CategoryId int NOT NULL IDENTITY (1, 1),
+	CategoryName nvarchar(200) NULL);
+GO
+
+SET IDENTITY_INSERT ShriRam_tbl_Category ON
+GO
+INSERT INTO ShriRam_tbl_Category (CategoryId, CategoryName)
+	VALUES (1, N'kkkkkk')
+
+GO
+INSERT INTO ShriRam_tbl_Category (CategoryId, CategoryName)
+	VALUES (2, N'kkkkkktyyjk')
+
+GO
+INSERT INTO ShriRam_tbl_Category (CategoryId, CategoryName)
+	VALUES (3, N'kkkkj')
+
+GO
+INSERT INTO ShriRam_tbl_Category (CategoryId, CategoryName)
+	VALUES (4, N'')
+
+GO
+INSERT INTO ShriRam_tbl_Category (CategoryId, CategoryName)
+	VALUES (5, N'Yyuuiiuu')
+
+GO
+INSERT INTO ShriRam_tbl_Category (CategoryId, CategoryName)
+	VALUES (6, N'jgdd')
+
+GO
+INSERT INTO ShriRam_tbl_Category (CategoryId, CategoryName)
+	VALUES (7, N'jgddfhdgsgsg')
+
+GO
+INSERT INTO ShriRam_tbl_Category (CategoryId, CategoryName)
+	VALUES (8, N'aaaaaaaa')
+
+GO
+INSERT INTO ShriRam_tbl_Category (CategoryId, CategoryName)
+	VALUES (9, N'aaaaaaaa11')
+
+GO
+INSERT INTO ShriRam_tbl_Category (CategoryId, CategoryName)
+	VALUES (10, N'cehyjrgqx')
+
+GO
+SET IDENTITY_INSERT ShriRam_tbl_Category OFF
+GO
+
+--Table ManishTiwari.ShriRam_tbl_ContactUs
+
+USE db_ManishTiwari
+GO
+
+--Create table and its columns
+CREATE TABLE ShriRam_tbl_ContactUs (
+	ContactId int NOT NULL IDENTITY (1, 1),
+	CName nvarchar(200) NULL,
+	CMobile nvarchar(100) NULL,
+	CEmail nvarchar(200) NULL,
+	CMessage nvarchar(200) NULL,
+	CSubject nvarchar(200) NULL);
+GO
+
+SET IDENTITY_INSERT ShriRam_tbl_ContactUs ON
+GO
+INSERT INTO ShriRam_tbl_ContactUs (ContactId, CName, CMobile, CEmail, CMessage, CSubject)
+	VALUES (1, N'a', NULL, NULL, NULL, NULL)
+
+GO
+SET IDENTITY_INSERT ShriRam_tbl_ContactUs OFF
+GO
+
+--Table ManishTiwari.ShriRam_tbl_Gallery
+
+USE db_ManishTiwari
+GO
+
+--Create table and its columns
+CREATE TABLE ShriRam_tbl_Gallery (
+	GalleryId int NOT NULL IDENTITY (1, 1),
+	AlbumId int NULL,
+	Title nvarchar(200) NULL,
+	PhotoUrl nvarchar(200) NULL);
+GO
+
+SET IDENTITY_INSERT ShriRam_tbl_Gallery ON
+GO
+INSERT INTO ShriRam_tbl_Gallery (GalleryId, AlbumId, Title, PhotoUrl)
+	VALUES (1, 1, N'Gallery1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Gallery (GalleryId, AlbumId, Title, PhotoUrl)
+	VALUES (2, 1, N'Gallery 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Gallery (GalleryId, AlbumId, Title, PhotoUrl)
+	VALUES (3, 2, N'Gallery1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Gallery (GalleryId, AlbumId, Title, PhotoUrl)
+	VALUES (4, 2, N'Gallery 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+INSERT INTO ShriRam_tbl_Gallery (GalleryId, AlbumId, Title, PhotoUrl)
+	VALUES (5, 3, N'Gallery1', N'http://naharacademy.com/album/a.jpg')
+
+GO
+INSERT INTO ShriRam_tbl_Gallery (GalleryId, AlbumId, Title, PhotoUrl)
+	VALUES (6, 3, N'Gallery 2', N'http://naharacademy.com/album/b.jpeg')
+
+GO
+SET IDENTITY_INSERT ShriRam_tbl_Gallery OFF
+GO
+
+--Table ManishTiwari.ShriRam_tbl_OrderMaster
+
+USE db_ManishTiwari
+GO
+
+--Create table and its columns
+CREATE TABLE ShriRam_tbl_OrderMaster (
+	OrderID int NOT NULL IDENTITY (1, 1),
+	RegId int NULL,
+	ProductId int NULL,
+	Price int NULL,
+	OrderDate nvarchar(50) NULL);
+GO
+
+--Table ManishTiwari.ShriRam_tbl_Product
+
+USE db_ManishTiwari
+GO
+
+--Create table and its columns
+CREATE TABLE ShriRam_tbl_Product (
+	ProductId int NOT NULL IDENTITY (1, 1),
+	ProductName varchar(200) NULL,
+	Price varchar(200) NULL,
+	Description varchar(200) NULL,
+	CategoryId varchar(200) NULL,
+	status int NULL,
+	Rating float NULL);
+GO
+
+SET IDENTITY_INSERT ShriRam_tbl_Product ON
+GO
+INSERT INTO ShriRam_tbl_Product (ProductId, ProductName, Price, Description, CategoryId, status, Rating)
+	VALUES (1, N'a', N'200', N'abc', N'1', 1, CAST ('5' AS float))
+
+GO
+INSERT INTO ShriRam_tbl_Product (ProductId, ProductName, Price, Description, CategoryId, status, Rating)
+	VALUES (2, N'b', N'200', N'abc', N'1', 1, CAST ('5' AS float))
+
+GO
+INSERT INTO ShriRam_tbl_Product (ProductId, ProductName, Price, Description, CategoryId, status, Rating)
+	VALUES (3, N'c', N'200', N'abc', N'1', 1, CAST ('5' AS float))
+
+GO
+SET IDENTITY_INSERT ShriRam_tbl_Product OFF
+GO
+
+--Table ManishTiwari.ShriRam_tbl_Register
+
+USE db_ManishTiwari
+GO
+
+--Create table and its columns
+CREATE TABLE ShriRam_tbl_Register (
+	RegId int NOT NULL IDENTITY (1, 1),
+	RegName nvarchar(200) NULL,
+	RegMobile nvarchar(50) NULL,
+	RegEmail nvarchar(200) NULL,
+	RegPassword nvarchar(50) NULL,
+	Regstatus int NULL);
+GO
+
+SET IDENTITY_INSERT ShriRam_tbl_Register ON
+GO
+INSERT INTO ShriRam_tbl_Register (RegId, RegName, RegMobile, RegEmail, RegPassword, Regstatus)
+	VALUES (4, N'Name', N'Mobile', N'Email', N'Password', 1)
+
+GO
+INSERT INTO ShriRam_tbl_Register (RegId, RegName, RegMobile, RegEmail, RegPassword, Regstatus)
+	VALUES (5, N'df', N'85', N'ssf', N'df', 1)
+
+GO
+SET IDENTITY_INSERT ShriRam_tbl_Register OFF
+GO

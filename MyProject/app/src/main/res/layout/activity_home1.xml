@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Layout.Home1">
+
+   <LinearLayout
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_weight="1"
+           android:background="#FF9D80"
+           android:layout_width="0dp"
+           android:layout_height="match_parent">
+           <TextView
+
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Music"
+               android:textSize="30dp"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_weight="2"
+           android:layout_width="0dp"
+           android:background="#47A64A"
+           android:layout_height="match_parent">
+           <TextView
+               android:layout_marginLeft="40dp"
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Play Store"
+               android:textSize="30dp"/>
+       </LinearLayout>
+   </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icecream"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:background="#4D1410"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Life is one big road with lots of signs. So when you riding through the ruts, don't complicate your mind. Flee from hate, mischief and jealousy. Don't bury your thoughts, put your vision to reality. Wake Up and Live!"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#85e468">
+           <TextView
+              android:layout_marginLeft="15dp"
+               android:layout_gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="FLIPBOARD"
+               android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#088da5">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAMERA"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#daa520">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WHATSAPP"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:background="#bac91d"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="FACEBOOK"
+                android:textSize="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:background="#d60e22"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FILES"
+                android:textSize="30dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

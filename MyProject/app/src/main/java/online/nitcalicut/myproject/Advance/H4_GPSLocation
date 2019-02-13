@@ -1,0 +1,22 @@
+1.
+
+
+
+
+
+
+
+
+
+
+
+
+1. Add Dependency
+ compile 'com.google.android.gms:play-services-location:10.2.1'
+ compile 'com.google.android.gms:play-services-maps:10.2.1'
+
+ 2. Add Meta Data in Manifest File
+  <meta-data
+             android:name="com.google.android.geo.API_KEY"
+             android:value="AIzaSyDsfPsG1R0y7guFE_HkM_Mzm18ljMMsBBo" />
+

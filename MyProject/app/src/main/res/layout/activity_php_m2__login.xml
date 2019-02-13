@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="online.nitcalicut.myproject.PHP.PhpM2_Login">
+
+    <EditText
+        android:id="@+id/PHPM2_txt_MobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Login Mobile Number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/PHPM2_txt_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:onClick="PHPM2_fun_Continue"
+        android:padding="20dp"
+        android:text="SignIn"
+        android:textSize="18dp" />
+
+</LinearLayout>

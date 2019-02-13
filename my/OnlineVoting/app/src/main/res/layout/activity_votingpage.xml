@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Votingpage"
+    android:background="@drawable/bgimage">
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="127dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="48dp"
+        android:text="Voting Area"
+        android:textSize="@dimen/msg_no_posts"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="109dp"
+        android:text="List of Postions" />
+
+    <Spinner
+        android:id="@+id/position_spinner"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="144dp"/>
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_marginTop="183dp"
+        android:text="List of Candidates" />
+
+
+    <Button
+        android:background="@drawable/buttonstyleselector"
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
+        android:text="Vote" />
+
+    <Button
+        android:background="@drawable/buttonstyleselector"
+        android:id="@+id/btn_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="100dp"
+        android:text="Logout" />
+
+    <LinearLayout
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="228dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rg_candidate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rb_candidate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/rb_candidate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/rb_candidate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controls.B20_GridView">
+
+
+    <GridView
+        android:id="@+id/b20_gridView"
+        android:layout_width="match_parent"
+        android:numColumns="4"
+        android:layout_height="wrap_content"></GridView>
+</LinearLayout>

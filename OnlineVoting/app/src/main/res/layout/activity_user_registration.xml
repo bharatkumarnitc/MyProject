@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    tools:context=".UserRegistration"
+    android:background="@drawable/bgimage">
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginRight="79dp"
+        android:layout_marginStart="57dp"
+        android:text="User Registration"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/usernamer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <EditText
+        android:textColorHint="#fff"
+        android:id="@+id/usernamer"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:layout_marginBottom="38dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/mailr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:textColorHint="#fff"
+        android:id="@+id/mailr"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernamer"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:textColorHint="#fff"
+        android:id="@+id/deptr"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="94dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Department Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rollnorr"
+        android:textColor="#fff"/>
+
+    <Button
+        android:background="@drawable/buttonstyleselector"
+        android:id="@+id/btnsubmitr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deptr" />
+
+    <EditText
+        android:textColorHint="#fff"
+        android:id="@+id/rollnorr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="94dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="94dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Roll No"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mailr"
+        android:textColor="#fff"/>
+
+</android.support.constraint.ConstraintLayout>

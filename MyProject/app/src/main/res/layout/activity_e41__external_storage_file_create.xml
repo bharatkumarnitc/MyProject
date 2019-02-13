@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="online.nitcalicut.myproject.Control2.E41_ExternalStorageFileCreate">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Zoom Controls"
+        android:textColor="@color/md_black_1000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Write Something"
+        android:textColor="@color/md_black_1000" />
+
+    <EditText
+        android:id="@+id/E41_txtData"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Write something"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/btn_background"
+        android:text="Save File"
+        android:onClick="E41_btnSave" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/btn_background"
+        android:text="Read File"
+        android:onClick="E41_btn_read" />
+    <TextView
+        android:id="@+id/E41_lblData"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+</LinearLayout>

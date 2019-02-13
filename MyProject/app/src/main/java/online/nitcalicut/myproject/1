@@ -1,0 +1,243 @@
+Control1
+E1_VerticalScroll  --done
+E2_HorizontalScroll  --done
+E3_Add                  --done
+E4_Calc                  --done
+E5_RadioButton         --done
+E6_CheckBox           --done
+E7_ImageView          --done
+E8_DigitalClock       --done
+E9_AnalogClock       --done
+E10_Switch           --done
+E11_Toggle             --done
+E12_DatePicker       --done
+E13_TimePicker      --done
+E14_NumberPicker    --done
+E15_RatingBar       --done
+E16_SeekBar          --done
+E17_ProgressBar
+E17A_TextBoxBlink
+E18_ProgressDialog
+E19_SearchView     --done
+E20_ZoomButton     --done
+E21_ZoomControl
+E22_AlertDialog      --done
+E23_Spinner           --done
+E24_Spinner       --done
+E25_ListView      --done
+E26_ListView      --done
+E27_ListViewDialog   --done
+E28_AutoText       --done
+E29_MultiAutoText  --done
+E30_ListMultiple  --done
+
+Control2
+E30_GridView
+E31_GridViewGallery
+E32_GridViewGalleryText
+E33_GalleryControl
+E34_CustomToast
+E35_OptionMenu
+E36_PopupMenu
+E37_ContextMenu
+E38_SharedPreferences
+E39_InternalStorageFileCreate
+E40_InternalStorageFileCreate
+E41_ExternalStorageFileCreate
+E42_ExternalStorageFileCreate
+E43_ListViewMulti
+
+Control3
+F1_WebView
+F1A_WebView
+F1B_WebView
+F2_ImageSwitcher
+F4_ViewStub
+F5_AsyncTask
+F6_PlayVideo
+F7_PlayAudio
+
+Advance
+H1_PagerAdapter
+H1_tab1
+H1_tab2
+H1_tab3
+H1_TabLayout
+H1_TabLayout
+H2_NavigationDrawer
+H2_NDBaseActivity
+H3_Guesture
+H4_GPSLocation
+H4_GPSLocation
+H4_GPSTracker
+
+Aspapi
+ASP_API_Code
+ASP_API_DBscript
+ASP_WebAPI
+ASP1_InsertData
+ASP2_ListView
+ASP3_Register
+ASP4_LogIn
+ASP5_Home
+ASP6_EditProfile
+ASP7_A_Products
+ASP8_QuickSearch
+ASP9_AdvanceSearch
+ASP10_ContactUs
+ASP11_Album
+ASP12__Gallery
+ASP13_AddToCart
+
+ExpenseManager
+1
+P1_Splash
+P2_Register
+P3_Login
+P4_Home
+P5_IncomeCategoryShow
+P6_IncomeCategoryAdd
+P7_IncomeEntryShow
+P8_IncomeEntryAdd
+P9_IncomeReport
+P10_ExpenseCategoryShow
+P11_ExpenseCategoryAdd
+P12_ExpenseEntryShow
+P13_ExpenseEntryAdd
+P14_ExpenseReport
+
+ExpenseManagerSQL
+1
+Q1_Splash
+Q2_Register
+Q3_Login
+Q4_Home
+Q5_IncomeCategoryShow
+Q6_IncomeCategoryAdd
+Q7_IncomeEntryShow
+Q8_IncomeEntryAdd
+Q9_IncomeReport
+Q10_ExpenseCategoryShow
+Q11_ExpenseCategoryAdd
+Q12_ExpenseEntryShow
+Q13_ExpenseEntryAdd
+Q14_ExpenseReport
+
+Firebase
+1-Steps
+
+Hardware
+G1_BatteryLevel
+G2_BlueTooth
+G3_Wifi
+G4_BluetoothPairedDevice
+G5_MotionDetection
+G6_GetCallState1
+G7_PhoneCall
+G8_TelephonyManager
+G9_SendSMS
+G10_ReadSMS
+G11_ContactDetails
+G11_ReadContacts
+G12_CallLogRead
+G13_CallLogUtility
+G13_CallLogWrite
+G14_SendMail
+G15_TextToSpeech
+G16_Camera
+G17_CameraSave
+
+Layout
+A1_Layout
+A2_Layout
+A3_Layout
+A4_Layout
+A5_Layout
+A6_Layout
+B1_Home
+B2_Home
+B3_Home
+B4_Home
+C1_Login
+C2_Login
+C3_Login
+C4_Login
+D1_Register
+D2_Register
+D3_Register
+
+PhpApi
+Php1_InsertData
+Php2_ListView
+Php3_Spinner
+Php4_AutoCompelete
+Php5_MultiAutoComplete
+Php6_GridView
+Php8_ListViewMulti
+Php9_SpinnerId
+PhpM1_Register
+PhpM2_Login
+PhpM3_Home
+PhpM4_EditProfile
+PhpM5_ChangePassword
+PhpM6_Logout
+PhpM7_Products
+PhpM9_SearchQuick
+PhpM10_SearchAdvance
+PhpM11_AddToCart
+PhpM12_ContactUs
+PhpM13_Album
+PhpM14_Gallery
+PhpM15_SearchAdvance
+
+Sqlite
+Sq1_InsertSingle  -- done
+Sq2_ReadSingle  -- done
+Sq3_Spinner  -- done
+Sq4_ListView  -- done
+Sq5_AutoCompleteText  -- done
+Sq6_AutoCompleteMultiple  -- done
+Sq7_GridView
+Sq8_MultipleInsert
+Sq9_ReadMultiple
+Sq10_Search
+Sq11_AdvanceSearch
+Sq12_Register
+Sq13_Login
+Sq14_Home
+Sq15_EditProfile
+Sq16_ChangePassword
+Sq17_Logout
+Sq18_ContactUs
+Sq19_SpinnerID
+
+
+Sqlserver
+Mod1_Register
+Mod2_Login
+Mod3_Home
+Mod4_EditProfile
+Mod4A_Products
+Mod5_QuickSearch
+Mod6_AdvanceSearch
+Mod7_ContactUs
+Mod8_Album
+Mod9_Gallery
+Mod10_AddToCart
+Mod11_BuyProduct
+Mod12_ViewCart
+Mod13_MyOrders
+Mod14_ReviewProduct
+Mod15_RatingProduct
+Mod16_ChangePassword
+SpinnerObject
+Sql1_InsertData
+Sql2_ListView
+Sql3_Spinner
+Sql4_AutoComplete
+Sql5_MultiAutoComplete
+Sql6_GridView
+Sql7_InsertMultiData
+Sql8_ListViewMulti
+Sql9_SpinnerId
+Sql10_SpinnerId

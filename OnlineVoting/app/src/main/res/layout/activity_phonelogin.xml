@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phonelogin"
+    android:orientation="vertical"
+    android:background="@drawable/bgimage"
+   >
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to User"
+        android:textSize="30dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="#fff"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:layout_margin="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_otp"
+        android:clickable="false"
+        android:layout_margin="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"/>
+
+    <Button
+        android:id="@+id/btn_generate_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/generate_otp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/textColor"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/verify_sign_in"
+        android:background="@color/colorAccent"
+        android:textColor="@color/textColor"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>

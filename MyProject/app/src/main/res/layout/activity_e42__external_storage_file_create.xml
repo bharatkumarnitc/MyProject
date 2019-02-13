@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="online.nitcalicut.myproject.Control2.E42_ExternalStorageFileCreate">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Zoom Controls"
+        android:textColor="@color/md_black_1000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Name:"
+            android:textColor="@color/md_black_1000" />
+
+        <EditText
+            android:id="@+id/E42_txtFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data:"
+            android:textColor="@color/md_black_1000" />
+
+        <EditText
+            android:id="@+id/E42_txtData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/E42_btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_background"
+            android:text="save" />
+
+        <Button
+            android:id="@+id/E42_btnRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_background"
+            android:text="read" />
+    </LinearLayout>
+
+
+</LinearLayout>

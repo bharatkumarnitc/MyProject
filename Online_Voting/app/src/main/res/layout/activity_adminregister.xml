@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.adminregister"
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regrestration From"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textColor="#fff"/>
+        <EditText
+            android:id="@+id/adname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="#fff"
+            android:layout_margin="20dp"/>
+        <EditText
+            android:id="@+id/ademail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="#fff"
+            android:layout_margin="20dp"/>
+        <EditText
+            android:id="@+id/adpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#fff"
+            android:layout_margin="20dp"/>
+        <EditText
+            android:id="@+id/admobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile"
+            android:textColorHint="#fff"
+            android:layout_margin="20dp"/>
+        <Button
+            android:onClick="btnadmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

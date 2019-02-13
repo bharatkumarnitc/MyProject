@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="24"
+    build-mode="FULL"
+    density="xxhdpi"
+    format="10"
+    plugin-version="3.2.0"
+    timestamp="1540640622702"
+    token="7001030675785664868"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="828" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="62" />
+    <task
+        name="verifier"
+        duration="47" />
+
+    <artifact
+        location="C:\Users\Bharat\AndroidStudioProjects\OnlineVoting\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+
+</instant-run>
